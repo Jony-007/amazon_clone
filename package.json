@@ -1,0 +1,26 @@
+{
+  "name": "amazon_clone",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jony-007/amazon_clone.git"
+  },
+  "author": "Jony",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jony-007/amazon_clone/issues"
+  },
+  "homepage": "https://github.com/Jony-007/amazon_clone#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
